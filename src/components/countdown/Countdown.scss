@@ -1,0 +1,45 @@
+.countdown-section {
+    width: 100%;
+    background-color: yellow;
+    position: relative;
+}
+
+.countdown {
+    background-color: var(--color-purple);
+}
+
+.countdown time span {
+    margin: 0 1rem;
+}
+
+time span p {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+time span small {
+    font-size: 1.2rem;
+    font-weight: normal;
+    background: orangered;
+    padding: 0 2px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.close {
+    position: absolute;
+    font-size: 1.5rem;
+    top: 5px;
+    right: 1px;
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
